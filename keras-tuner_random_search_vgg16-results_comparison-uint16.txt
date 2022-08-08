@@ -1,0 +1,1082 @@
+Comparison between the most common hyperparameters settings (1st frame)
+
+Trial summary  ----------------------->
+Hyperparameters:
+learning rate: 1e-05
+epochs: 300
+batch_size: 30
+Score: 0.800000011920929
+
+Hyperparameters test:
+
+Fold 0
+Epoch 24/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.6748 - accuracy: 0.5714 - val_loss: 0.7438 - val_accuracy: 0.3571
+Restoring model weights from the end of the best epoch.
+Epoch 00024: early stopping
+1/1 [==============================] - 0s 14ms/step - loss: 0.6287 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.6287091970443726
+
+
+Fold 1
+Epoch 300/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.5713 - accuracy: 0.8750 - val_loss: 0.5995 - val_accuracy: 0.6429
+1/1 [==============================] - 0s 16ms/step - loss: 0.5701 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5700855851173401
+
+
+Fold 2
+Epoch 11/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5784 - accuracy: 0.8393 - val_loss: 0.5464 - val_accuracy: 0.7857
+Restoring model weights from the end of the best epoch.
+Epoch 00011: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.5697 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5696784257888794
+
+
+Fold 3
+Epoch 15/300
+2/2 [==============================] - 0s 21ms/step - loss: 0.5817 - accuracy: 0.8393 - val_loss: 0.5103 - val_accuracy: 1.0000
+Restoring model weights from the end of the best epoch.
+Epoch 00015: early stopping
+1/1 [==============================] - 0s 15ms/step - loss: 0.5693 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5692664384841919
+
+
+Fold 4
+Epoch 10/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5617 - accuracy: 0.8571 - val_loss: 0.5783 - val_accuracy: 0.9286
+Restoring model weights from the end of the best epoch.
+Epoch 00010: early stopping
+1/1 [==============================] - 0s 15ms/step - loss: 0.5691 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5691351294517517
+
+
+K-Fold accuracy:  [0.699999988079071, 0.8999999761581421, 0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+
+Average accuracy:  0.8599999785423279
+K-Fold Standard deviation:  0.07999999523162842
+
+# BEST HYPERPARAMETER SET
+
+=========================================================================================================================
+
+Trial summary  ----------------------->
+Hyperparameters:
+learning rate: 1e-05
+epochs: 200
+batch_size: 8
+
+Hyperparameters test:
+
+Fold  0
+Epoch 12/200
+7/7 [==============================] - 0s 5ms/step - loss: 0.6713 - accuracy: 0.6250 - val_loss: 0.7443 - val_accuracy: 0.4286
+Restoring model weights from the end of the best epoch.
+Epoch 00012: early stopping
+1/1 [==============================] - 0s 14ms/step - loss: 0.6291 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.6290711164474487
+
+
+Fold  1
+Epoch 200/200
+7/7 [==============================] - 0s 5ms/step - loss: 0.5263 - accuracy: 0.9107 - val_loss: 0.5815 - val_accuracy: 0.7857
+1/1 [==============================] - 0s 15ms/step - loss: 0.5581 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.5581309795379639
+
+
+Fold  2
+Epoch 8/200
+7/7 [==============================] - 0s 5ms/step - loss: 0.5365 - accuracy: 0.9286 - val_loss: 0.5042 - val_accuracy: 0.7857
+Restoring model weights from the end of the best epoch.
+Epoch 00008: early stopping
+1/1 [==============================] - 0s 15ms/step - loss: 0.5581 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.5580808520317078
+
+
+Fold  3
+Epoch 200/200
+7/7 [==============================] - 0s 4ms/step - loss: 0.4260 - accuracy: 0.9643 - val_loss: 0.4302 - val_accuracy: 1.0000
+1/1 [==============================] - 0s 14ms/step - loss: 0.5242 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.5242174863815308
+
+
+Fold  4
+Epoch 7/200
+7/7 [==============================] - 0s 4ms/step - loss: 0.4197 - accuracy: 0.9821 - val_loss: 0.4378 - val_accuracy: 1.0000
+Restoring model weights from the end of the best epoch.
+Epoch 00007: early stopping
+1/1 [==============================] - 0s 14ms/step - loss: 0.5242 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.5241859555244446
+
+
+K-Fold accuracy:  [0.699999988079071, 0.699999988079071, 0.699999988079071, 0.699999988079071, 0.699999988079071]
+
+Average accuracy:  0.699999988079071
+K-Fold Standard deviation:  0.0
+
+=========================================================================================================================
+
+Trial summary ----------------------->
+Hyperparameters:
+learning rate: 1e-06
+epochs: 300
+batch_size: 28
+Score: 0.7
+
+Hyperparameters test:
+
+Fold  0
+Epoch 228/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.6753 - accuracy: 0.6071 - val_loss: 0.7441 - val_accuracy: 0.2857
+Restoring model weights from the end of the best epoch.
+Epoch 00228: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.6274 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.6273676753044128
+
+
+Fold  1
+Epoch 300/300
+2/2 [==============================] - 0s 27ms/step - loss: 0.6854 - accuracy: 0.6250 - val_loss: 0.6359 - val_accuracy: 0.5714
+1/1 [==============================] - 0s 16ms/step - loss: 0.6209 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.6208556890487671
+
+
+Fold  2
+Epoch 23/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.6813 - accuracy: 0.5714 - val_loss: 0.6467 - val_accuracy: 0.7857
+Restoring model weights from the end of the best epoch.
+Epoch 00023: early stopping
+1/1 [==============================] - 0s 14ms/step - loss: 0.6205 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.6204764246940613
+
+
+Fold  3
+Epoch 300/300
+2/2 [==============================] - 0s 27ms/step - loss: 0.6541 - accuracy: 0.6786 - val_loss: 0.6913 - val_accuracy: 0.5714
+1/1 [==============================] - 0s 24ms/step - loss: 0.6159 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.6159308552742004
+
+
+Fold  4
+Epoch 16/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.6625 - accuracy: 0.6071 - val_loss: 0.6538 - val_accuracy: 0.8571
+Restoring model weights from the end of the best epoch.
+Epoch 00016: early stopping
+1/1 [==============================] - 0s 15ms/step - loss: 0.6158 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.6158401966094971
+
+
+K-Fold accuracy:  [0.699999988079071, 0.699999988079071, 0.699999988079071, 0.699999988079071, 0.699999988079071]
+
+Average accuracy:  0.699999988079071
+K-Fold Standard deviation:  0.0
+
+=========================================================================================================================
+
+Trial summary ----------------------->
+Hyperparameters:
+learning rate: 0.0001
+epochs: 500
+batch_size: 26
+Score: 0.6600000023841858
+
+Hyperparameters test:
+
+Fold  0
+Epoch 28/500
+3/3 [==============================] - 0s 10ms/step - loss: 0.5436 - accuracy: 0.8214 - val_loss: 0.7382 - val_accuracy: 0.5000
+Restoring model weights from the end of the best epoch.
+Epoch 00028: early stopping
+1/1 [==============================] - 0s 14ms/step - loss: 0.5573 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5573064088821411
+
+
+Fold  1
+Epoch 463/500
+3/3 [==============================] - 0s 10ms/step - loss: 0.0925 - accuracy: 1.0000 - val_loss: 0.3755 - val_accuracy: 0.9286
+Restoring model weights from the end of the best epoch.
+Epoch 00463: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.5419 - accuracy: 0.6000
+
+Test accuracy:  0.6000000238418579
+Test loss:  0.541897177696228
+
+
+Fold  2
+Epoch 6/500
+3/3 [==============================] - 0s 11ms/step - loss: 0.1533 - accuracy: 0.9821 - val_loss: 0.1037 - val_accuracy: 1.0000
+Restoring model weights from the end of the best epoch.
+Epoch 00006: early stopping
+1/1 [==============================] - 0s 14ms/step - loss: 0.5421 - accuracy: 0.6000
+
+Test accuracy:  0.6000000238418579
+Test loss:  0.5420842170715332
+
+
+Fold  3
+Epoch 9/500
+3/3 [==============================] - 0s 10ms/step - loss: 0.1555 - accuracy: 0.9821 - val_loss: 0.0530 - val_accuracy: 1.0000
+Restoring model weights from the end of the best epoch.
+Epoch 00009: early stopping
+1/1 [==============================] - 0s 15ms/step - loss: 0.5396 - accuracy: 0.6000
+
+Test accuracy:  0.6000000238418579
+Test loss:  0.5395946502685547
+
+
+Fold  4
+Epoch 6/500
+3/3 [==============================] - 0s 11ms/step - loss: 0.1411 - accuracy: 0.9821 - val_loss: 0.1061 - val_accuracy: 1.0000
+Restoring model weights from the end of the best epoch.
+Epoch 00006: early stopping
+1/1 [==============================] - 0s 15ms/step - loss: 0.5392 - accuracy: 0.6000
+
+Test accuracy:  0.6000000238418579
+Test loss:  0.5391732454299927
+
+
+K-Fold accuracy:  [0.8999999761581421, 0.6000000238418579, 0.6000000238418579, 0.6000000238418579, 0.6000000238418579]
+
+Average accuracy:  0.6600000143051148
+K-Fold Standard deviation:  0.11999998092651366
+
+=========================================================================================================================
+
+Keyframe classification performance comparison
+
+1st Frame
+
+Hyperparameters:
+learning rate: 1e-05
+epochs: 300
+batch_size: 30
+
+Fold 0
+Epoch 24/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.6748 - accuracy: 0.5714 - val_loss: 0.7438 - val_accuracy: 0.3571
+Restoring model weights from the end of the best epoch.
+Epoch 00024: early stopping
+1/1 [==============================] - 0s 14ms/step - loss: 0.6287 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.6287091970443726
+
+
+Fold 1
+Epoch 300/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.5713 - accuracy: 0.8750 - val_loss: 0.5995 - val_accuracy: 0.6429
+1/1 [==============================] - 0s 16ms/step - loss: 0.5701 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5700855851173401
+
+
+Fold 2
+Epoch 11/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5784 - accuracy: 0.8393 - val_loss: 0.5464 - val_accuracy: 0.7857
+Restoring model weights from the end of the best epoch.
+Epoch 00011: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.5697 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5696784257888794
+
+
+Fold 3
+Epoch 15/300
+2/2 [==============================] - 0s 21ms/step - loss: 0.5817 - accuracy: 0.8393 - val_loss: 0.5103 - val_accuracy: 1.0000
+Restoring model weights from the end of the best epoch.
+Epoch 00015: early stopping
+1/1 [==============================] - 0s 15ms/step - loss: 0.5693 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5692664384841919
+
+
+Fold 4
+Epoch 10/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5617 - accuracy: 0.8571 - val_loss: 0.5783 - val_accuracy: 0.9286
+Restoring model weights from the end of the best epoch.
+Epoch 00010: early stopping
+1/1 [==============================] - 0s 15ms/step - loss: 0.5691 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5691351294517517
+
+
+K-Fold accuracy:  [0.699999988079071, 0.8999999761581421, 0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+
+Average accuracy:  0.8599999785423279
+K-Fold Standard deviation:  0.07999999523162842
+
+=========================================================================================================================
+
+5th Frame
+
+Hyperparameters:
+learning rate: 1e-05
+epochs: 300
+batch_size: 30
+
+Fold  0
+Epoch 24/300
+2/2 [==============================] - 0s 38ms/step - loss: 0.6770 - accuracy: 0.5714 - val_loss: 0.7405 - val_accuracy: 0.3571
+Restoring model weights from the end of the best epoch.
+Epoch 00024: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.6258 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.6258293390274048
+
+
+Fold  1
+Epoch 300/300
+2/2 [==============================] - 0s 25ms/step - loss: 0.5748 - accuracy: 0.8571 - val_loss: 0.6015 - val_accuracy: 0.6429
+1/1 [==============================] - 0s 16ms/step - loss: 0.5745 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5744503736495972
+
+
+Fold  2
+Epoch 11/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.5819 - accuracy: 0.8571 - val_loss: 0.5484 - val_accuracy: 0.7857
+Restoring model weights from the end of the best epoch.
+Epoch 00011: early stopping
+1/1 [==============================] - 0s 14ms/step - loss: 0.5742 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5741814970970154
+
+
+Fold  3
+Epoch 15/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.5828 - accuracy: 0.8393 - val_loss: 0.5218 - val_accuracy: 1.0000
+Restoring model weights from the end of the best epoch.
+Epoch 00015: early stopping
+1/1 [==============================] - 0s 15ms/step - loss: 0.5740 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5740002393722534
+
+
+Fold  4
+Epoch 10/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.5657 - accuracy: 0.8393 - val_loss: 0.5782 - val_accuracy: 0.9286
+Restoring model weights from the end of the best epoch.
+Epoch 00010: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.5741 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5740658044815063
+
+
+K-Fold accuracy:  [0.699999988079071, 0.8999999761581421, 0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+
+Average accuracy:  0.8599999785423279
+K-Fold Standard deviation:  0.07999999523162842
+
+=========================================================================================================================
+
+10th Frame
+
+Hyperparameters:
+learning rate: 1e-05
+epochs: 300
+batch_size: 30
+
+Fold  0
+Epoch 24/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.6756 - accuracy: 0.6071 - val_loss: 0.7381 - val_accuracy: 0.3571
+Restoring model weights from the end of the best epoch.
+Epoch 00024: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.6311 - accuracy: 0.6000
+
+Test accuracy:  0.6000000238418579
+Test loss:  0.6311306953430176
+
+
+Fold  1
+Epoch 300/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5725 - accuracy: 0.8393 - val_loss: 0.5981 - val_accuracy: 0.6429
+1/1 [==============================] - 0s 14ms/step - loss: 0.5862 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5862394571304321
+
+
+Fold  2
+Epoch 11/300
+2/2 [==============================] - 0s 21ms/step - loss: 0.5806 - accuracy: 0.8393 - val_loss: 0.5408 - val_accuracy: 0.7857
+Restoring model weights from the end of the best epoch.
+Epoch 00011: early stopping
+1/1 [==============================] - 0s 15ms/step - loss: 0.5861 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5861167907714844
+
+
+Fold  3
+Epoch 15/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5805 - accuracy: 0.8214 - val_loss: 0.5180 - val_accuracy: 1.0000
+Restoring model weights from the end of the best epoch.
+Epoch 00015: early stopping
+1/1 [==============================] - 0s 14ms/step - loss: 0.5862 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5862385630607605
+
+
+Fold  4
+Epoch 12/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.5605 - accuracy: 0.8214 - val_loss: 0.5815 - val_accuracy: 0.9286
+Restoring model weights from the end of the best epoch.
+Epoch 00012: early stopping
+1/1 [==============================] - 0s 14ms/step - loss: 0.5864 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5864328742027283
+
+
+K-Fold accuracy:  [0.6000000238418579, 0.8999999761581421, 0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+
+Average accuracy:  0.8399999856948852
+K-Fold Standard deviation:  0.11999998092651366
+
+=========================================================================================================================
+
+15th Frame
+
+Hyperparameters:
+learning rate: 1e-05
+epochs: 300
+batch_size: 30
+
+Fold  0
+Epoch 25/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.6757 - accuracy: 0.6607 - val_loss: 0.7417 - val_accuracy: 0.3571
+Restoring model weights from the end of the best epoch.
+Epoch 00025: early stopping
+1/1 [==============================] - 0s 14ms/step - loss: 0.6387 - accuracy: 0.6000
+
+Test accuracy:  0.6000000238418579
+Test loss:  0.6386948227882385
+
+
+Fold  1
+Epoch 300/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5718 - accuracy: 0.8393 - val_loss: 0.5959 - val_accuracy: 0.7143
+1/1 [==============================] - 0s 17ms/step - loss: 0.5886 - accuracy: 0.8000
+
+Test accuracy:  0.800000011920929
+Test loss:  0.5885640978813171
+
+
+Fold  2
+Epoch 11/300
+2/2 [==============================] - 0s 47ms/step - loss: 0.5780 - accuracy: 0.8214 - val_loss: 0.5465 - val_accuracy: 0.7857
+Restoring model weights from the end of the best epoch.
+Epoch 00011: early stopping
+1/1 [==============================] - 0s 27ms/step - loss: 0.5884 - accuracy: 0.8000
+
+Test accuracy:  0.800000011920929
+Test loss:  0.5883969068527222
+
+
+Fold  3
+Epoch 14/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.5808 - accuracy: 0.8036 - val_loss: 0.5144 - val_accuracy: 1.0000
+Restoring model weights from the end of the best epoch.
+Epoch 00014: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.5882 - accuracy: 0.8000
+
+Test accuracy:  0.800000011920929
+Test loss:  0.588241696357727
+
+
+Fold  4
+poch 12/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.5590 - accuracy: 0.8571 - val_loss: 0.5849 - val_accuracy: 0.9286
+Restoring model weights from the end of the best epoch.
+Epoch 00012: early stopping
+1/1 [==============================] - 0s 14ms/step - loss: 0.5885 - accuracy: 0.8000
+
+Test accuracy:  0.800000011920929
+Test loss:  0.5884683728218079
+
+
+K-Fold accuracy:  [0.6000000238418579, 0.800000011920929, 0.800000011920929, 0.800000011920929, 0.800000011920929]
+
+Average accuracy:  0.7600000143051148
+K-Fold Standard deviation:  0.07999999523162842
+
+=========================================================================================================================
+
+20th Frame
+
+Hyperparameters:
+learning rate: 1e-05
+epochs: 300
+batch_size: 30
+
+Fold  0
+Epoch 24/300
+2/2 [==============================] - 0s 21ms/step - loss: 0.6770 - accuracy: 0.6250 - val_loss: 0.7408 - val_accuracy: 0.4286
+Restoring model weights from the end of the best epoch.
+Epoch 00024: early stopping
+1/1 [==============================] - 0s 15ms/step - loss: 0.6374 - accuracy: 0.6000
+
+Test accuracy:  0.6000000238418579
+Test loss:  0.6373570561408997
+
+
+Fold  1
+Epoch 300/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.5725 - accuracy: 0.8036 - val_loss: 0.5962 - val_accuracy: 0.7143
+1/1 [==============================] - 0s 17ms/step - loss: 0.5880 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.5880156755447388
+
+
+Fold  2
+Epoch 11/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.5782 - accuracy: 0.8036 - val_loss: 0.5484 - val_accuracy: 0.7857
+Restoring model weights from the end of the best epoch.
+Epoch 00011: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.5878 - accuracy: 0.8000
+
+Test accuracy:  0.800000011920929
+Test loss:  0.5877906680107117
+
+
+Fold  3
+poch 17/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.5805 - accuracy: 0.8036 - val_loss: 0.5114 - val_accuracy: 1.0000
+Restoring model weights from the end of the best epoch.
+Epoch 00017: early stopping
+1/1 [==============================] - 0s 15ms/step - loss: 0.5873 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.5872653722763062
+
+
+Fold  4
+Epoch 10/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5604 - accuracy: 0.8571 - val_loss: 0.5801 - val_accuracy: 0.8571
+Restoring model weights from the end of the best epoch.
+Epoch 00010: early stopping
+1/1 [==============================] - 0s 14ms/step - loss: 0.5873 - accuracy: 0.8000
+
+Test accuracy:  0.800000011920929
+Test loss:  0.5872746706008911
+
+
+K-Fold accuracy:  [0.6000000238418579, 0.699999988079071, 0.800000011920929, 0.699999988079071, 0.800000011920929]
+
+Average accuracy:  0.7200000047683716
+K-Fold Standard deviation:  0.07483314646107928
+
+=========================================================================================================================
+
+25th Frame
+
+Hyperparameters:
+learning rate: 1e-05
+epochs: 300
+batch_size: 30
+
+Fold  0
+Epoch 24/300
+2/2 [==============================] - 0s 20ms/step - loss: 0.6770 - accuracy: 0.5714 - val_loss: 0.7403 - val_accuracy: 0.4286
+Restoring model weights from the end of the best epoch.
+Epoch 00024: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.6306 - accuracy: 0.5000
+
+Test accuracy:  0.5
+Test loss:  0.6305972337722778
+
+
+Fold  1
+Epoch 300/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5719 - accuracy: 0.8214 - val_loss: 0.6001 - val_accuracy: 0.7143
+1/1 [==============================] - 0s 16ms/step - loss: 0.5901 - accuracy: 0.8000
+
+Test accuracy:  0.800000011920929
+Test loss:  0.5900610089302063
+
+
+Fold  2
+Epoch 11/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.5795 - accuracy: 0.8036 - val_loss: 0.5447 - val_accuracy: 0.7857
+Restoring model weights from the end of the best epoch.
+Epoch 00011: early stopping
+1/1 [==============================] - 0s 14ms/step - loss: 0.5898 - accuracy: 0.8000
+
+Test accuracy:  0.800000011920929
+Test loss:  0.5898443460464478
+
+
+Fold  3
+Epoch 18/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.5802 - accuracy: 0.7857 - val_loss: 0.5122 - val_accuracy: 1.0000
+Restoring model weights from the end of the best epoch.
+Epoch 00018: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.5896 - accuracy: 0.8000
+
+Test accuracy:  0.800000011920929
+Test loss:  0.5895745158195496
+
+
+Fold  4
+Epoch 11/300
+2/2 [==============================] - 0s 21ms/step - loss: 0.5594 - accuracy: 0.8214 - val_loss: 0.5813 - val_accuracy: 0.8571
+Restoring model weights from the end of the best epoch.
+Epoch 00011: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.5896 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.5896139144897461
+
+
+K-Fold accuracy:  [0.5, 0.800000011920929, 0.800000011920929, 0.800000011920929, 0.699999988079071]
+
+Average accuracy:  0.7200000047683716
+K-Fold Standard deviation:  0.11661904321240465
+
+=========================================================================================================================
+
+30th Frame
+
+Hyperparameters:
+learning rate: 1e-05
+epochs: 300
+batch_size: 30
+
+Fold  0
+Epoch 23/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.6778 - accuracy: 0.6071 - val_loss: 0.7366 - val_accuracy: 0.4286
+Restoring model weights from the end of the best epoch.
+Epoch 00023: early stopping
+1/1 [==============================] - 0s 26ms/step - loss: 0.6273 - accuracy: 0.6000
+
+Test accuracy:  0.6000000238418579
+Test loss:  0.6273213624954224
+
+
+Fold  1
+Epoch 300/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5710 - accuracy: 0.8214 - val_loss: 0.6036 - val_accuracy: 0.7143
+1/1 [==============================] - 0s 16ms/step - loss: 0.5800 - accuracy: 0.8000
+
+Test accuracy:  0.800000011920929
+Test loss:  0.5799674987792969
+
+
+Fold  2
+Epoch 10/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.5799 - accuracy: 0.8214 - val_loss: 0.5454 - val_accuracy: 0.7857
+Restoring model weights from the end of the best epoch.
+Epoch 00010: early stopping
+1/1 [==============================] - 0s 15ms/step - loss: 0.5798 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.5798069834709167
+
+
+Fold  3
+Epoch 14/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5825 - accuracy: 0.7679 - val_loss: 0.5138 - val_accuracy: 1.0000
+Restoring model weights from the end of the best epoch.
+Epoch 00014: early stopping
+1/1 [==============================] - 0s 14ms/step - loss: 0.5802 - accuracy: 0.8000
+
+Test accuracy:  0.800000011920929
+Test loss:  0.5802415013313293
+
+
+Fold  4
+Epoch 12/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5622 - accuracy: 0.8393 - val_loss: 0.5782 - val_accuracy: 0.9286
+Restoring model weights from the end of the best epoch.
+Epoch 00012: early stopping
+1/1 [==============================] - 0s 14ms/step - loss: 0.5805 - accuracy: 0.8000
+
+Test accuracy:  0.800000011920929
+Test loss:  0.5804625153541565
+
+
+K-Fold accuracy:  [0.6000000238418579, 0.800000011920929, 0.699999988079071, 0.800000011920929, 0.800000011920929]
+
+Average accuracy:  0.7400000095367432
+K-Fold Standard deviation:  0.07999999821186149
+
+=========================================================================================================================
+
+35th Frame
+
+Hyperparameters:
+learning rate: 1e-05
+epochs: 300
+batch_size: 30
+
+Fold  0
+Epoch 25/300
+2/2 [==============================] - 0s 32ms/step - loss: 0.6776 - accuracy: 0.6250 - val_loss: 0.7423 - val_accuracy: 0.3571
+Restoring model weights from the end of the best epoch.
+Epoch 00025: early stopping
+1/1 [==============================] - 0s 27ms/step - loss: 0.6277 - accuracy: 0.6000
+
+Test accuracy:  0.6000000238418579
+Test loss:  0.6276818513870239
+
+
+Fold  1
+Epoch 300/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5725 - accuracy: 0.8214 - val_loss: 0.5939 - val_accuracy: 0.7143
+1/1 [==============================] - 0s 14ms/step - loss: 0.5832 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.5831824541091919
+
+
+Fold  2
+Epoch 11/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5774 - accuracy: 0.8393 - val_loss: 0.5495 - val_accuracy: 0.7857
+Restoring model weights from the end of the best epoch.
+Epoch 00011: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.5831 - accuracy: 0.8000
+
+Test accuracy:  0.800000011920929
+Test loss:  0.5830564498901367
+
+
+Fold  3
+Epoch 31/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.5726 - accuracy: 0.8571 - val_loss: 0.5121 - val_accuracy: 1.0000
+Restoring model weights from the end of the best epoch.
+Epoch 00031: early stopping
+1/1 [==============================] - 0s 14ms/step - loss: 0.5829 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.5828574299812317
+
+
+Fold  4
+Epoch 11/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5529 - accuracy: 0.8929 - val_loss: 0.5771 - val_accuracy: 1.0000
+Restoring model weights from the end of the best epoch.
+Epoch 00011: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.5830 - accuracy: 0.8000
+
+Test accuracy:  0.800000011920929
+Test loss:  0.5829923748970032
+
+
+K-Fold accuracy:  [0.6000000238418579, 0.699999988079071, 0.800000011920929, 0.699999988079071, 0.800000011920929]
+
+Average accuracy:  0.7200000047683716
+K-Fold Standard deviation:  0.07483314646107928
+
+=========================================================================================================================
+
+40th Frame
+
+Hyperparameters:
+learning rate: 1e-05
+epochs: 300
+batch_size: 30
+
+Fold  0
+Epoch 25/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.6782 - accuracy: 0.6250 - val_loss: 0.7385 - val_accuracy: 0.4286
+Restoring model weights from the end of the best epoch.
+Epoch 00025: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.6305 - accuracy: 0.5000
+
+Test accuracy:  0.5
+Test loss:  0.6305292248725891
+
+
+Fold  1
+Epoch 300/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5727 - accuracy: 0.8393 - val_loss: 0.5966 - val_accuracy: 0.7143
+1/1 [==============================] - 0s 14ms/step - loss: 0.5868 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.586799144744873
+
+
+Fold  2
+Epoch 11/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5787 - accuracy: 0.8393 - val_loss: 0.5480 - val_accuracy: 0.7857
+Restoring model weights from the end of the best epoch.
+Epoch 00011: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.5866 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.5866141319274902
+
+
+Fold  3
+Epoch 13/300
+2/2 [==============================] - 0s 20ms/step - loss: 0.5833 - accuracy: 0.8393 - val_loss: 0.5120 - val_accuracy: 1.0000
+Restoring model weights from the end of the best epoch.
+Epoch 00013: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.5865 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.5864638686180115
+
+
+Fold  4
+Epoch 11/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5609 - accuracy: 0.8393 - val_loss: 0.5870 - val_accuracy: 0.9286
+Restoring model weights from the end of the best epoch.
+Epoch 00011: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.5868 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.5867573022842407
+
+
+K-Fold accuracy:  [0.5, 0.699999988079071, 0.699999988079071, 0.699999988079071, 0.699999988079071]
+
+Average accuracy:  0.6599999904632569
+K-Fold Standard deviation:  0.07999999523162842
+
+=========================================================================================================================
+
+45th Frame
+
+Hyperparameters:
+learning rate: 1e-05
+epochs: 300
+batch_size: 30
+
+Fold  0
+Epoch 24/300
+2/2 [==============================] - 0s 17ms/step - loss: 0.6796 - accuracy: 0.6429 - val_loss: 0.7363 - val_accuracy: 0.3571
+Restoring model weights from the end of the best epoch.
+Epoch 00024: early stopping
+1/1 [==============================] - 0s 15ms/step - loss: 0.6297 - accuracy: 0.5000
+
+Test accuracy:  0.5
+Test loss:  0.6296757459640503
+
+
+Fold  1
+Epoch 300/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5728 - accuracy: 0.8393 - val_loss: 0.6026 - val_accuracy: 0.7143
+1/1 [==============================] - 0s 14ms/step - loss: 0.5900 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.5899871587753296
+
+
+Fold  2
+Epoch 10/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5822 - accuracy: 0.8393 - val_loss: 0.5430 - val_accuracy: 0.7857
+Restoring model weights from the end of the best epoch.
+Epoch 00010: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.5898 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.5897791385650635
+
+
+Fold  3
+Epoch 13/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5847 - accuracy: 0.8214 - val_loss: 0.5150 - val_accuracy: 1.0000
+Restoring model weights from the end of the best epoch.
+Epoch 00013: early stopping
+1/1 [==============================] - 0s 14ms/step - loss: 0.5900 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.5900048017501831
+
+
+Fold  4
+Epoch 10/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5627 - accuracy: 0.8393 - val_loss: 0.5907 - val_accuracy: 0.8571
+Restoring model weights from the end of the best epoch.
+Epoch 00010: early stopping
+1/1 [==============================] - 0s 15ms/step - loss: 0.5902 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.5902045965194702
+
+
+K-Fold accuracy:  [0.5, 0.699999988079071, 0.699999988079071, 0.699999988079071, 0.699999988079071]
+
+Average accuracy:  0.6599999904632569
+K-Fold Standard deviation:  0.07999999523162842
+
+=========================================================================================================================
+
+50th Frame
+
+Hyperparameters:
+learning rate: 1e-05
+epochs: 300
+batch_size: 30
+
+Fold  0
+Epoch 25/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.6786 - accuracy: 0.6429 - val_loss: 0.7345 - val_accuracy: 0.3571
+Restoring model weights from the end of the best epoch.
+Epoch 00025: early stopping
+1/1 [==============================] - 0s 15ms/step - loss: 0.6209 - accuracy: 0.8000
+
+Test accuracy:  0.800000011920929
+Test loss:  0.6208561658859253
+
+
+Fold  1
+Epoch 300/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5699 - accuracy: 0.8571 - val_loss: 0.6050 - val_accuracy: 0.7143
+1/1 [==============================] - 0s 16ms/step - loss: 0.5823 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.5823397636413574
+
+
+Fold  2
+Epoch 11/300
+2/2 [==============================] - 0s 20ms/step - loss: 0.5803 - accuracy: 0.8750 - val_loss: 0.5391 - val_accuracy: 0.7857
+Restoring model weights from the end of the best epoch.
+Epoch 00011: early stopping
+1/1 [==============================] - 0s 15ms/step - loss: 0.5821 - accuracy: 0.8000
+
+Test accuracy:  0.800000011920929
+Test loss:  0.5820844769477844
+
+
+Fold  3
+Epoch 12/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5817 - accuracy: 0.8571 - val_loss: 0.5175 - val_accuracy: 1.0000
+Restoring model weights from the end of the best epoch.
+Epoch 00012: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.5821 - accuracy: 0.7000
+
+Test accuracy:  0.699999988079071
+Test loss:  0.5821040272712708
+
+
+Fold  4
+Epoch 10/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5625 - accuracy: 0.8750 - val_loss: 0.5824 - val_accuracy: 1.0000
+Restoring model weights from the end of the best epoch.
+Epoch 00010: early stopping
+1/1 [==============================] - 0s 15ms/step - loss: 0.5823 - accuracy: 0.8000
+
+Test accuracy:  0.800000011920929
+Test loss:  0.5823200941085815
+
+
+K-Fold accuracy:  [0.800000011920929, 0.699999988079071, 0.800000011920929, 0.699999988079071, 0.800000011920929]
+
+Average accuracy:  0.7600000023841857
+K-Fold Standard deviation:  0.04898980653574084
+
+=========================================================================================================================
+
+Average frame
+
+Hyperparameters:
+learning rate: 1e-05
+epochs: 300
+batch_size: 30
+
+Fold  0
+Epoch 22/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.6785 - accuracy: 0.6429 - val_loss: 0.7340 - val_accuracy: 0.4286
+Restoring model weights from the end of the best epoch.
+Epoch 00022: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.6349 - accuracy: 0.6000
+
+Test accuracy:  0.6000000238418579
+Test loss:  0.6349358558654785
+
+
+Fold  1
+Epoch 300/300
+2/2 [==============================] - 0s 19ms/step - loss: 0.5685 - accuracy: 0.8393 - val_loss: 0.6164 - val_accuracy: 0.7143
+1/1 [==============================] - 0s 16ms/step - loss: 0.5839 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5839036107063293
+
+
+Fold  2
+Epoch 10/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5811 - accuracy: 0.8393 - val_loss: 0.5451 - val_accuracy: 0.7857
+Restoring model weights from the end of the best epoch.
+Epoch 00010: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.5837 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5837316513061523
+
+
+Fold  3
+Epoch 12/300
+2/2 [==============================] - 0s 18ms/step - loss: 0.5843 - accuracy: 0.8036 - val_loss: 0.5172 - val_accuracy: 1.0000
+Restoring model weights from the end of the best epoch.
+Epoch 00012: early stopping
+1/1 [==============================] - 0s 16ms/step - loss: 0.5839 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5838792324066162
+
+
+Fold  4
+Epoch 12/300
+2/2 [==============================] - 0s 21ms/step - loss: 0.5639 - accuracy: 0.8214 - val_loss: 0.5834 - val_accuracy: 0.8571
+Restoring model weights from the end of the best epoch.
+Epoch 00012: early stopping
+1/1 [==============================] - 0s 24ms/step - loss: 0.5842 - accuracy: 0.9000
+
+Test accuracy:  0.8999999761581421
+Test loss:  0.5841776728630066
+
+
+K-Fold accuracy:  [0.6000000238418579, 0.8999999761581421, 0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+
+Average accuracy:  0.8399999856948852
+K-Fold Standard deviation:  0.11999998092651366
+
+=========================================================================================================================
