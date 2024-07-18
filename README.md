@@ -23,12 +23,11 @@ See the `README.md` files in each directory for a full description.
 
 ## Using the code
 
-You can download a copy of all the files in this repository by cloning the
-[git](https://git-scm.com/) repository:
+You can download a copy of all the files in this repository by cloning the repository:
 
-    git clone https://github.com/wrdsilva/Drunkenness-Classification-from-Face-Images-Using-Convolutional-Neural-Networks.git
+    gh repo clone wrdsilva/Drunkenness-Classification-from-Face-Images-Using-Convolutional-Neural-Networks
 
-or [download a zip archive](https://github.com/antonia-had/paper_template/archive/master.zip).
+or [download a zip archive](https://github.com/wrdsilva/Drunkenness-Classification-from-Face-Images-Using-Convolutional-Neural-Networks/archive/refs/heads/main.zip).
 
 
 ## Dependencies
