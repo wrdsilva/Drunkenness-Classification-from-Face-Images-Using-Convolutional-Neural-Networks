@@ -1,7 +1,10 @@
-# Drunkenness Classification from Face Images Using Convolutional Neural Networks
-
-Washington Rodrigo Dias da Silva and Siovani Cintra Felipussi
+# Drunkenness Classification from Face Images Using Convolutional Neural Networks: An Approach Based on Alcohol-Induced Physiological Responses
+by *Washington Rodrigo Dias da Silva and Siovani Cintra Felipussi*
 
 This is a repository for the implementations described in the paper "Drunkenness Classification from Face Images Using Convolutional Neural Networks: An Approach Based on Alcohol-Induced Physiological Responses", which has been submitted for publication in ACM Transactions on Intelligent Systems and Technology.
 
 For those who wish to replicate the aforementioned paper results, we advise you to request the sober-drunk database to its creators at: http://old.physics.upatras.gr/sober/
+
+## Abstract
+
+Due to population growth and an increasing motorized vehicle fleet worldwide, road safety is still a global challenge that persists despite the awareness campaigns and the legal enforcement instruments. Most of the road safety risk factors are completely preventable and in this sense, the drunk-driving needs a special attention since a few doses of alcohol can be enough to impair motor and sensory functions required for safe driving. Hence, an individual in such condition may represent a road safety risk even presenting a blood alcohol concentration within the local legal limits. Since drunk-driving is a recurrent problem, in this paper we proposed a complementary method for drunk drivers enforcement considering the physiological responses induced by alcohol as intoxication indicatives. We addressed the drunkenness classification problem by identifying facial temperature distribution behaviors related to alcohol consumption. Such features were extracted from individuals facial thermal images in both drunk and sober states by a Convolutional Neural Network, which enabled the automatic pose invariant feature extraction and the model inference interpretation. This approach allowed us to identify temperature variations between the forehead and nose regions as a drunkenness indicative and also to identify an asymmetric facial temperature distribution in inebriated individuals that was not showed by previous studies. Hence, we were able to demonstrate a relation between facial temperature distribution patterns and the alcohol metabolic cycle, evidencing the viability of using images to recognize physiological effects caused by alcohol.
