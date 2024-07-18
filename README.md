@@ -26,11 +26,9 @@ See the `README.md` files in each directory for a full description.
 You can download a copy of all the files in this repository by cloning the
 [git](https://git-scm.com/) repository:
 
-    git clone https://github.com/antonia-had/paper_template.git
+    git clone https://github.com/wrdsilva/Drunkenness-Classification-from-Face-Images-Using-Convolutional-Neural-Networks.git
 
 or [download a zip archive](https://github.com/antonia-had/paper_template/archive/master.zip).
-
-A copy of the repository is also archived at *insert DOI here*
 
 
 ## Dependencies
@@ -85,7 +83,7 @@ To build and test the software, produce all results and figures, follow these st
 
 ## License
 
-All source code is made available under a GNU GPL 3-clause license. You can freely
+All source code is made available under the GNU GPL-3.0 license. You can freely
 use and modify the code, without warranty, so long as you provide attribution
 to the authors.
 
