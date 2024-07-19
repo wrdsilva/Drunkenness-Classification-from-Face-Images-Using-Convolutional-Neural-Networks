@@ -1,6 +1,10 @@
 # Drunkenness Classification from Face Images Using Convolutional Neural Networks: An Approach Based on Alcohol-Induced Physiological Responses
 
-by *Washington Rodrigo Dias da Silva and Siovani Cintra Felipussi*
+Washington Rodrigo Dias da Silva<sup>1</sup> and Siovani Cintra Felipussi<sup>1</sup>
+
+<sup>1 </sup>Department of Computer Science, Federal University of São Carlos - Sorocaba Campus, SP, Brazil
+
+contact:  washingtonrds@estudante.ufscar.br, siovani@ufscar.br
 
 This is a repository for the implementations described in the paper "Drunkenness Classification from Face Images Using Convolutional Neural Networks: An Approach Based on Alcohol-Induced Physiological Responses", which has been submitted for publication in the *ACM Transactions on Intelligent Systems and Technology*.
 
