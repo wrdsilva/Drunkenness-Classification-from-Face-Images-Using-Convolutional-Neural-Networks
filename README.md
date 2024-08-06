@@ -32,6 +32,8 @@ or [download a zip archive](https://github.com/wrdsilva/Drunkenness-Classificati
 
 ## Dependencies
 
+To reproduce our results, you will need Python >= 3.7.x and the packages: Tensorflow, Keras, Keras-Tuner, Scikit-learn, OpenCV, Pillow, Numpy, Scipy, Matplotlib, Sewar and TF-Explain.
+
 ## License
 
 All source code is made available under the GNU General Public License v3.0 (GPL-3.0). You are free to use, modify, and distribute the code, provided you include the same license, make the source code available, and provide attribution to the original authors. Any modifications or derivative works must also be licensed under the GPL-3.0. For more details, please refer to the GPL-3.0 License.
