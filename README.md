@@ -32,7 +32,7 @@ or [download a zip archive](https://github.com/wrdsilva/Drunkenness-Classificati
 
 ## Dependencies
 
-To reproduce our results, you will need Python >= 3.7.x and the packages: Tensorflow, Keras, Keras-Tuner, Scikit-learn, OpenCV, Pillow, Numpy, Scipy, Matplotlib, Sewar and TF-Explain.
+To reproduce our results, ensure you have Python (version 3.7.x or higher) installed. Additionally, you will need the following packages: Tensorflow, Keras, Keras-Tuner, Scikit-learn, OpenCV, Pillow, Numpy, Scipy, Matplotlib, Sewar, and TF-Explain.
 
 ## License
 
