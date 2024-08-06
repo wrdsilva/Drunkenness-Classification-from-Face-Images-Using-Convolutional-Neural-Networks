@@ -1,13 +1,10 @@
 # Source code for producing the results and figures
 
-> This should be a description of all codes used.
-> The following is example text you can use, taken from [this template](https://github.com/pinga-lab/paper-template)
+The code is divided between Python scripts and Jupyter notebooks. The scripts implement functions for processing the database and analyzing the frame sequence of each subject. In this sense, the first step for reproducing our work is running the `multiframe_preprocessing.py`script. This script will retrieve individual frames from each multi-page .tiff file and convert them to the RGB color space, since the VGG16 pre-trained model expects images with 3 color channels. In addition, this script will return the balanaced and imbalanced datasets used along the experiments described in the paper.
 
-The code is divided between Python modules in `mypackage` and Jupyter notebooks
-in `notebooks`. The modules implement the methodology and code that is reused
-in different applications. This code is tested using `pytest` with the test
-code in `tests`. The notebooks perform the data analysis and processing and
-generate the figures for the paper.
+The `frame_histogram.py`script implement functions for performing the thermogram subtraction analysis (showed in the *Dataset description* subsection of the paper), the histogram comparison and the PSNR analysis (showed in the *Inference interpretation subsection of the paper*).
+
+The notebooks perform the data analysis and processing and generate the figures for the paper.
 
 
 ## Analysis set up
