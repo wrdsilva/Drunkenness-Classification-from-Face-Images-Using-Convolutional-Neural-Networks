@@ -8,10 +8,3 @@ Once you obtain the fine-tuned base model, the next step is training the final m
 
 The `multiframe-cc-face-symmetry.ipynb` notebook contains all implementations required for performing the Mann-Whitney test and the following analysis described in paper's *Inference interpretation* subsection. All implementations related to the grad-cam analysis showed in paper's *Inference interpretation* subsection are available in the `multiframe-cc-final-model-grad-cam.ipynb` notebook.
 
-
-
-## Generating results and figures
-
-> You can use this area to explain how to process the outputs to generate the
-> results and figures used in the paper. A makefile that automates the process
-> would be ideal here. You can use text like the following:
